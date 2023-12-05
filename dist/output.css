@@ -556,18 +556,6 @@ video {
   display: flex;
 }
 
-<<<<<<< HEAD
-.w-\[30\%\] {
-  width: 30%;
-}
-
-.w-full {
-  width: 100%;
-=======
-.h-\[236\] {
-  height: 236;
-}
-
 .h-\[236px\] {
   height: 236px;
 }
@@ -576,13 +564,12 @@ video {
   width: 257px;
 }
 
-.flex-initial {
-  flex: 0 1 auto;
+.w-\[30\%\] {
+  width: 30%;
 }
 
-.flex-auto {
-  flex: 1 1 auto;
->>>>>>> 6c3823908b1abbc0e40c283f62ef9883f74f1690
+.w-full {
+  width: 100%;
 }
 
 .items-center {
@@ -597,34 +584,18 @@ video {
   justify-content: space-between;
 }
 
-.justify-around {
-  justify-content: space-around;
+.gap-1 {
+  gap: 0.25rem;
 }
 
 .gap-2 {
   gap: 0.5rem;
 }
 
-<<<<<<< HEAD
-=======
-.gap-1 {
-  gap: 0.25rem;
-}
-
-.gap-5 {
-  gap: 1.25rem;
-}
-
-.gap-10 {
-  gap: 2.5rem;
-}
-
->>>>>>> 6c3823908b1abbc0e40c283f62ef9883f74f1690
 .gap-20 {
   gap: 5rem;
 }
 
-<<<<<<< HEAD
 .rounded-2xl {
   border-radius: 1rem;
 }
@@ -645,13 +616,10 @@ video {
   border-color: #60405C;;
 }
 
-=======
->>>>>>> 6c3823908b1abbc0e40c283f62ef9883f74f1690
 .bg-primary1 {
   background-color: #A8D18D;;
 }
 
-<<<<<<< HEAD
 .bg-primary2 {
   background-color: #F392A9;;
 }
@@ -682,6 +650,11 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -692,6 +665,18 @@ video {
   padding-bottom: 8rem;
 }
 
+.pt-1 {
+  padding-top: 0.25rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
+.font-kungop {
+  font-family: KungopThin;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -700,62 +685,32 @@ video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
-=======
-.object-bottom {
-  -o-object-position: bottom;
-     object-position: bottom;
 }
 
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
-.pt-6 {
-  padding-top: 1.5rem;
-}
-
-.pt-8 {
-  padding-top: 2rem;
-}
-
-.pt-\[880px\] {
-  padding-top: 880px;
-}
-
-.pt-2 {
-  padding-top: 0.5rem;
-}
-
-.pt-4 {
-  padding-top: 1rem;
-}
-
-.pt-3 {
-  padding-top: 0.75rem;
-}
-
-.pt-1 {
-  padding-top: 0.25rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
   font-weight: 700;
->>>>>>> 6c3823908b1abbc0e40c283f62ef9883f74f1690
 }
 
 .text-primary4 {
   color: #60405C;;
 }
-<<<<<<< HEAD
 
 .text-primary5 {
   color: #FDEEE7;;
 }
-=======
->>>>>>> 6c3823908b1abbc0e40c283f62ef9883f74f1690
+
+@font-face {
+  font-family: "KungopThin";
+
+  src: url(assets/font/KungopThin.ttf);
+}
