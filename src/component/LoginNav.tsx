@@ -1,4 +1,3 @@
-import React from "react";
 import logo from "../assets/logo.png";
 import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
