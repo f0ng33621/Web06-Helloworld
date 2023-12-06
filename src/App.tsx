@@ -1,16 +1,15 @@
-import React from "react";
 import Nav from "./component/Nav";
-import "../dist/output.c
+import "../dist/output.css";
 import SearchBar from "./component/SearchBar";
-import HeroSection from "./component/HeroSection";  
+import HeroSection from "./component/HeroSection";
 import Footer from "./component/Footer.tsx";
 
 function App() {
   return (
     <>
-      <Nav/>
-      <SearchBar/>
-      <HeroSection/>
+      <Nav />
+      <SearchBar />
+      <HeroSection />
       <Footer />
     </>
   );

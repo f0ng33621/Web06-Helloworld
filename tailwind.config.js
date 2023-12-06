@@ -12,6 +12,9 @@ module.exports = {
         primary4: "#60405C;",
         primary5: "#FDEEE7;",
       },
+      fontFamily: {
+        kungop: ["KungopThin"],
+      },
     },
   },
   plugins: [],
