@@ -803,6 +803,21 @@ video {
 
 .max-w-\[480px\] {
   max-width: 480px;
+
+.h-\[236\] {
+  height: 236;
+}
+
+.h-\[236px\] {
+  height: 236px;
+}
+
+.w-\[257px\] {
+  width: 257px;
+}
+
+.flex-initial {
+  flex: 0 1 auto;
 }
 
 .flex-auto {
@@ -819,6 +834,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
 }
 
 .gap-2 {
@@ -894,6 +913,21 @@ video {
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-20 {
+  gap: 5rem;
 }
 
 .bg-primary1 {
@@ -1023,6 +1057,52 @@ video {
 .text-green-800 {
   --tw-text-opacity: 1;
   color: rgb(22 101 52 / var(--tw-text-opacity));
+}
+.object-bottom {
+  -o-object-position: bottom;
+     object-position: bottom;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.pt-\[880px\] {
+  padding-top: 880px;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pt-3 {
+  padding-top: 0.75rem;
+}
+
+.pt-1 {
+  padding-top: 0.25rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .text-primary4 {
