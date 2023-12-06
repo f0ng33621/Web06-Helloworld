@@ -22,7 +22,7 @@
 
 ::before,
 ::after {
-  --tw-content: '';
+  --tw-content: "";
 }
 
 /*
@@ -131,7 +131,8 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
   /* 1 */
   font-feature-settings: normal;
   /* 2 */
@@ -230,9 +231,9 @@ select {
 */
 
 button,
-[type='button'],
-[type='reset'],
-[type='submit'] {
+[type="button"],
+[type="reset"],
+[type="submit"] {
   -webkit-appearance: button;
   /* 1 */
   background-color: transparent;
@@ -279,7 +280,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 2. Correct the outline style in Safari.
 */
 
-[type='search'] {
+[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
@@ -541,6 +542,7 @@ video {
   --tw-backdrop-opacity: ;
   --tw-backdrop-saturate: ;
   --tw-backdrop-sepia: ;
+
 }
 
 .absolute {
@@ -550,6 +552,7 @@ video {
 .relative {
   position: relative;
 }
+
 
 .right-3 {
   right: 0.75rem;
@@ -583,6 +586,7 @@ video {
   width: 80%;
 }
 
+
 .w-\[257px\] {
   width: 257px;
 }
@@ -593,6 +597,7 @@ video {
 
 .w-screen {
   width: 100vw;
+
 }
 
 .items-center {
@@ -639,7 +644,6 @@ video {
   border-width: 3px;
   border-radius: 40px;
 }
-
 .border-4 {
   border-width: 4px;
 }
@@ -653,7 +657,28 @@ video {
   ;
 }
 
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-\[1px\] {
+  border-width: 1px;
+}
+
+.border-primary4 {
+  border-color: #60405c;
+}
+
 .bg-primary1 {
+
   background-color: #A8D18D;
   ;
 }
@@ -671,20 +696,24 @@ video {
 .bg-primary5 {
   background-color: #FDEEE7;
   ;
+
 }
 
 .p-4 {
   padding: 1rem;
 }
 
+
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
 
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+
 }
 
 .py-20 {
@@ -692,12 +721,14 @@ video {
   padding-bottom: 5rem;
 }
 
+
 .pt-1 {
   padding-top: 0.25rem;
 }
 
 .pt-6 {
   padding-top: 1.5rem;
+
 }
 
 .font-bold {
@@ -707,12 +738,15 @@ video {
 .text-primary4 {
   color: #60405C;
   ;
+
 }
 
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color),
+    0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 
@@ -722,9 +756,11 @@ video {
   height: 533px;
 }
 
+
 .wh-local {
   height: 280px;
   width: 832px;
+
 }
 
 .wh-shop {

@@ -4,19 +4,43 @@ import { Icon } from "@iconify/react";
 
 function Footer() {
   return (
-    <div className=" flex justify-center gap-20 bg-primary1 py-20 text-primary4">
+    <div className=" flex justify-center gap-20 bg-primary1 py-20 text-primary4 font-kungop">
       <div className="w-[257px] h-[236px] ">
         <img src={logoFooter} alt="" />
       </div>
       <div>
         <div className="">
           <p className="font-bold">CONTACT </p>
-          <p>IG: b.bxth._ : WEB DESIGN </p>
-          <p> IG : phannaphat_4711 : WEB DESIGN </p>
-          <p>IG :f0ng.wst : DEVOPS</p>
-          <p>IG : nnammog : FRONTEND </p>
-          <p>IG : pheamawas : FRONTEND</p>
-          <p>IG : isola_513i : FRONTEND</p>
+          <p>
+            <a href="https://www.instagram.com/b.bxth._/">
+              IG: b.bxth._ : WEB DESIGN
+            </a>
+          </p>
+          <p>
+            <a href="https://www.instagram.com/phannaphat_4711/">
+              IG : phannaphat_4711 : WEB DESIGN
+            </a>
+          </p>
+          <p>
+            <a href="https://www.instagram.com/f0ng.wst/">
+              IG :f0ng.wst : DEVOPS
+            </a>
+          </p>
+          <p>
+            <a href="https://www.instagram.com/nnammog/">
+              IG : nnammog : FRONTEND
+            </a>
+          </p>
+          <p>
+            <a href="https://www.instagram.com/pheamawas/">
+              IG : pheamawas : FRONTEND
+            </a>
+          </p>
+          <p>
+            <a href="https://www.instagram.com/isola_513i/">
+              IG : isola_513i : FRONTEND
+            </a>
+          </p>
         </div>
       </div>
 
