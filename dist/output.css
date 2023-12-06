@@ -1125,4 +1125,50 @@ video {
     --tw-ring-opacity: 1;
     --tw-ring-color: rgb(30 64 175 / var(--tw-ring-opacity));
   }
+
+  .item-box {
+    width: 261px;
+    height: 326px;
+    border-radius: 15px;
+  }
+
+  .menu-box {
+    width: 343.44px;
+    height: 425px;
+    display: flex;
+  }
+
+  .menu-text {
+    position:absolute;
+    display: flex;
+    
+  }
+
+  .shop-box {
+    width: 80%;
+    height: 494px;
+    border-radius: 30px;
+    
+  }
+
+  .mb-30 {
+    margin-bottom: 30px;
+  }
+
+  .p-1rem {
+    padding: 2rem;
+  }
+
+  .text-size48 {
+    font-size: 48px;
+  }
+
+  .peach-page1 {
+    position: absolute;
+    right: -275px;
+    top: -35px;
+    width: 361.88px;
+    height: 367.36px;
+  }
+
 }
