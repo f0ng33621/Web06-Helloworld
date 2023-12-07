@@ -1,5 +1,5 @@
-import { useState } from "react";
-import logo from "../assets/logo.png";
+import React, { useState } from "react";
+import logo from "../assets/logo 198_108.png";
 import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
 
@@ -17,7 +17,7 @@ function Nav() {
     <>
       <div className=" bg-primary1 flex justify-between items-center px-5">
         <div>
-          <button onClick={toggleMenu} className=" cursor-pointer">
+          <button onClick={toggleMenu}>
             <Icon icon="lucide:menu" width={50} color="#60405C" />
           </button>
         </div>
@@ -40,17 +40,19 @@ function Nav() {
       </div>
       <div>
         {isOpen && (
-          <div className=" w-[10%] bg-primary3 font-kungop text-primary4 text-center text-2xl absolute ml-5 -mt-8 z-2">
-            <div className=" hover:bg-primary2">หมวดเครื่องเขียน</div>
+          <div className=" w-[10%] bg-primary3 font-kungop text-primary4 text-center text-2xl absolute ml-5 -mt-8">
+            <Link to="/catagory">
+              <div className=" hover:bg-primary2">หมวดเครื่องเขียน</div>
+            </Link>
             <div className=" hover:bg-primary2">หมวดเครื่องแต่งกาย</div>
             <div className=" hover:bg-primary2">หมวดหนังสือ</div>
             <div className=" hover:bg-primary2">หมวดอุปกรณ์กีฬา</div>
           </div>
         )}
       </div>
-      <div className=" flex justify-end">
+      <div className="flex justify-end">
         {isOpenSignIn && (
-          <div className=" w-[10%] bg-primary3 font-kungop text-primary4 text-center text-2xl absolute mr-5 -mt-8 z-2">
+          <div className=" w-[10%] bg-primary3 font-kungop text-primary4 text-center text-2xl absolute -ml-5 -mt-8">
             <Link to="/login">
               <div className=" hover:bg-primary2">Sign In</div>
             </Link>

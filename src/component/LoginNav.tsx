@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo 198_108.png";
 import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
 

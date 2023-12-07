@@ -62,10 +62,18 @@ function Footer() {
         </div>
         <div className="pt-6">
           <p className="font-bold">CREDIT PICTURE</p>
-          <p>B2S</p>
-          <p>MOSHI MOSHI</p>
-          <p>MOLTEN </p>
-          <p>CARSON THAILAND</p>
+          <p>
+            <a href="https://www.b2s.co.th/">B2S</a>
+          </p>
+          <p>
+            <a href="https://www.moshimoshi.co.th/">MOSHI MOSHI</a>
+          </p>
+          <p>
+            <a href="https://shop.molten.co.th/">MOLTEN</a>
+          </p>
+          <p>
+            <a href="https://carson.co.th/">CARSON THAILAND</a>
+          </p>
         </div>
       </div>
     </div>
