@@ -16,6 +16,9 @@ module.exports = {
         pink: "#FAD5E6",
         sky: "#BBE4F6",
       },
+      fontFamily: {
+        kungop: ["KungopThin"],
+      },
     },
   },
   plugins: [],
