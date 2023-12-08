@@ -1,9 +1,8 @@
-import React from "react";
 import colorfulSharpeners from "../assets/กบเหลาหลากสี228.78x123px.png";
 function BuyNow() {
   return (
     <div className=" bg-primary3 flex justify-center gap-10 text-primary4 py-20">
-      <div className="  bg-primary5 bg-primary5 border-2 border-primary4 p-5 rounded-[20px] ">
+      <div className="  bg-primary5 border-2 border-primary4 p-5 rounded-[20px] ">
         <p className=" text-center ml-[9cm] bg-red-500 w-[45px] h-[31px]flex items-center justify-center text-white">
           -50%{" "}
         </p>
