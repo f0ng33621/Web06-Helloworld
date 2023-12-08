@@ -740,6 +740,10 @@ video {
 .font-kung {
   font-family: KungopThin;
 }
+@font-face {
+  font-family: KungopThin;
+  src: url(/assets/KungopThin-4KCORUlK.ttf);
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
