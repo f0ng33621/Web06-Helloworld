@@ -4,15 +4,23 @@ import menu1 from "../assets/button เครื่องเขียน 274 x 3
 import menu2 from "../assets/button เครื่องแต่งกาย274 x 330px.png";
 import menu3 from "../assets/button หนังสือ 274 x 330.png";
 import menu4 from "../assets/button อุปกรณ์กีฬา 274 x 330px.png";
+import { Link } from "react-router-dom";
 
 function Container() {
   return (
     <>
       <div className="bg-primary3 w-full">
         <div className="flex justify-between p-menu-bar">
-          <a href="">
-            <img src={menu1} width="274" height="330" alt="menu-เครื่องเขียน" />
-          </a>
+          <Link to="/catagory">
+            <a href="">
+              <img
+                src={menu1}
+                width="274"
+                height="330"
+                alt="menu-เครื่องเขียน"
+              />
+            </a>
+          </Link>
           <a href="">
             <img src={menu2} width="274" height="330" alt="menu-แต่งกาย" />
           </a>
