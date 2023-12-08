@@ -2,7 +2,7 @@ import { Icon } from "@iconify/react";
 
 function SearchBar() {
   return (
-    <div className="bg-primary3 h-20 w-screen flex justify-center items-center">
+    <div className="bg-primary3 h-20 w-full flex justify-center items-center">
       <form action="/search" className="w-4/5 px-4">
         <div className="relative">
           <input

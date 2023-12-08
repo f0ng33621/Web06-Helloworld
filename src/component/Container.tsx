@@ -1,51 +1,36 @@
-import ShopSectionBox from "./ShopSectionBox";
+import ShopSectionBox01 from "./ShopSectionBox";
+import ShopSectionBox02 from "./ShopSectionBox02";
+import menu1 from "../assets/button เครื่องเขียน 274 x 330px.png";
+import menu2 from "../assets/button เครื่องแต่งกาย274 x 330px.png";
+import menu3 from "../assets/button หนังสือ 274 x 330.png";
+import menu4 from "../assets/button อุปกรณ์กีฬา 274 x 330px.png";
 
 function Container() {
   return (
-    <div className="bg-primary3 h-full w-screen">
-      <div className="flex justify-between px-4">
-        <a href="">
-          <img
-            src="/src/assets/menuเครื่องเขียน 343.44x425 px.png"
-            width="343.44"
-            height="425"
-            alt="menu-เครื่องเขียน"
-          />
-        </a>
-        <a href="">
-          <img
-            src="/src/assets/menuแต่งกาย 343.44x425 px.png"
-            width="343.44"
-            height="425"
-            alt="menu-แต่งกาย"
-          />
-        </a>
-        <a href="">
-          <img
-            src="/src/assets/menuหนังสือ343.44x425px.png"
-            width="343.44"
-            height="425"
-            alt="menu-หนังสือ"
-          />
-        </a>
-        <a href="">
-          <img
-            src="/src/assets/menuกีฬา 343.44x425 px.png"
-            width="343.44"
-            height="425"
-            alt="menu-กีฬา"
-          />
-        </a>
+    <>
+      <div className="bg-primary3 w-full">
+        <div className="flex justify-between p-menu-bar">
+          <a href="">
+            <img src={menu1} width="274" height="330" alt="menu-เครื่องเขียน" />
+          </a>
+          <a href="">
+            <img src={menu2} width="274" height="330" alt="menu-แต่งกาย" />
+          </a>
+          <a href="">
+            <img src={menu3} width="274" height="330" alt="menu-หนังสือ" />
+          </a>
+          <a href="">
+            <img src={menu4} width="274" height="330" alt="menu-กีฬา" />
+          </a>
+        </div>
+        <div className="flex justify-center mt-shopsection">
+          <ShopSectionBox01 />
+        </div>
+        <div className="flex justify-center">
+          <ShopSectionBox02 />
+        </div>
       </div>
-
-      <div className="flex justify-center mb-30">
-        <ShopSectionBox />
-      </div>
-
-      <div className="flex justify-center mb-30">
-        <ShopSectionBox />
-      </div>
-    </div>
+    </>
   );
 }
 
