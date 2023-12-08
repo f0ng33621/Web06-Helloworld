@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import colorfulSharpeners from "../assets/กบเหลาหลากสี228.78x123px.png";
 function BuyNow() {
   return (

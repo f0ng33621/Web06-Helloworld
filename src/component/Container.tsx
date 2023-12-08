@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import ShopSectionBox01 from './ShopSectionBox'
 import ShopSectionBox02 from './ShopSectionBox02'
 
