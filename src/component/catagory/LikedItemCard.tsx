@@ -1,15 +1,8 @@
 import { useState } from "react";
 import { Icon } from "@iconify/react";
+import { ItemCardProps } from "./ItemCard";
 
-export interface ItemCardProps {
-  img: string;
-  name: string;
-  price: string;
-  sale?: boolean;
-  percent?: string;
-  newPrice?: string;
-}
-function ItemCard({
+function LikedItemCard({
   img,
   name,
   price,
@@ -52,26 +45,28 @@ function ItemCard({
           )}
           <div className="flex items-center">
             {isClick ? (
+              isHover ? (
+                <Icon
+                  onMouseLeave={handlehover}
+                  onClick={handleClick}
+                  icon="mingcute:heart-line"
+                  width={35}
+                  color="#F392A9"
+                />
+              ) : (
+                <Icon
+                  onMouseEnter={handlehover}
+                  icon="mingcute:heart-line"
+                  width={35}
+                  color="#60405c"
+                />
+              )
+            ) : (
               <Icon
                 onClick={handleClick}
                 icon="mingcute:heart-fill"
                 width={35}
                 color="#F392A9"
-              />
-            ) : isHover ? (
-              <Icon
-                onMouseLeave={handlehover}
-                onClick={handleClick}
-                icon="mingcute:heart-line"
-                width={35}
-                color="#F392A9"
-              />
-            ) : (
-              <Icon
-                onMouseEnter={handlehover}
-                icon="mingcute:heart-line"
-                width={35}
-                color="#60405c"
               />
             )}
             <Icon icon="fluent:cart-20-filled" width={38} color="#60405C" />
@@ -82,4 +77,4 @@ function ItemCard({
   );
 }
 
-export default ItemCard;
+export default LikedItemCard;

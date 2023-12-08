@@ -1,4 +1,3 @@
-import React from "react";
 import logoFooter from "../assets/หัวใจfooter257x236px.png";
 import { Icon } from "@iconify/react";
 

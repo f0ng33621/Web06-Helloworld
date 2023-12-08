@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import colorfulSharpeners from "../assets/กบเหลาหลากสี228.78x123px.png";
 import greenSharpeners from "../assets/กบเหลาสีเขียว426x426px.png";
 import pinkSharpeners from "../assets/กบเหลาสีชมพู429x429px.png";
@@ -24,9 +24,9 @@ function BuyNow() {
     <div className=" bg-primary3 flex justify-center items-center gap-10 text-primary4 py-20 font-kungop text-2xl ">
       <button
         onClick={() => handleClick(0)}
-        className=" bg-primary5 border-2 border-primary4 p-5 rounded-[20px] "
+        className=" flex flex-col bg-primary5 border-2 border-primary4 p-5 rounded-[20px] "
       >
-        <p className=" text-center bg-red-500 w-[45px] h-[31px] text-white">
+        <p className=" self-end text-center bg-red-500 w-[45px] h-[31px] text-white">
           -50%
         </p>
         <img src={images[image]} alt="" width={400} />
@@ -49,19 +49,19 @@ function BuyNow() {
         <div className="flex gap-[11px] border-b-2 border-b-primary4 pb-5 pt-3">
           <button
             onClick={() => handleClick(1)}
-            className=" w-[42px] h-[42px] rounded-full bg-talay"
+            className=" w-[42px] h-[42px] rounded-full bg-talay focus:border-[3px] focus:border-primary4"
           ></button>
           <button
             onClick={() => handleClick(2)}
-            className=" w-[42px] h-[42px] rounded-full bg-pueak"
+            className=" w-[42px] h-[42px] rounded-full bg-pueak focus:border-[3px] focus:border-primary4"
           ></button>
           <button
             onClick={() => handleClick(3)}
-            className=" w-[42px] h-[42px] rounded-full bg-pink"
+            className=" w-[42px] h-[42px] rounded-full bg-pink focus:border-[3px] focus:border-primary4"
           ></button>
           <button
             onClick={() => handleClick(4)}
-            className=" w-[42px] h-[42px] rounded-full bg-sky"
+            className=" w-[42px] h-[42px] rounded-full bg-sky focus:border-[3px] focus:border-primary4"
           ></button>
         </div>
 

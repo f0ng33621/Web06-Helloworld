@@ -1,5 +1,3 @@
-import React from "react";
-
 function StationarySelect() {
   return (
     <div className="bg-primary5 flex justify-center gap-[55px] py-6 font-kungop text-primary4 text-[36px]">

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import logo from "../assets/logo 198_108.png";
 import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
@@ -27,7 +27,9 @@ function Nav() {
           </Link>
         </div>
         <div className=" flex gap-2">
-          <Icon icon="mingcute:heart-fill" width={50} color="#60405C" />
+          <Link to="/fav">
+            <Icon icon="mingcute:heart-fill" width={50} color="#60405C" />
+          </Link>
           <Icon icon="fluent:cart-20-filled" width={50} color="#60405C" />
           <button onClick={toggleSignIn}>
             <Icon
