@@ -12,13 +12,10 @@ function HeroSection() {
                         <p>Marketplace</p>
                         <p>For student</p>
                     </div>
-                    <div className='bg-primary1 wh-shop border-5 border-primary4 absolute position-shop items-center flex justify-center text-uppercase px-4 '>
-                        <p>Shop now</p>
-                    </div>
+                    <a href="" className='bg-primary1 wh-shop border-5 border-primary4 absolute position-shop items-center flex justify-center text-uppercase px-4 font-size36 '> Shop now </a>
                     <div className="peach-page1">
                         <img src="/src/assets/peach1หน้าแรก361.88x367.36px.png" alt="peach-logo" />
                     </div>
-
                 </div>
                 {/* Arrow */}
                 <button className='absolute text-primary4 arrow-right'>
@@ -27,7 +24,6 @@ function HeroSection() {
                 <button className='absolute text-primary4 arrow-left'>
                     <Icon icon="iconamoon:arrow-up-2" width="83" height="72" rotate={3} />
                 </button>
-
             </div>
         </>
     )
