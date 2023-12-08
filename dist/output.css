@@ -44,12 +44,13 @@ html {
   -o-tab-size: 4;
   tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'KungopThin';
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
   font-variation-settings: normal;
   /* 6 */
+ 
 }
 
 /*
@@ -723,6 +724,7 @@ video {
   border-width: 3px;
   border-radius: 40px;
 }
+
 .border-4 {
   border-width: 4px;
 }
@@ -833,7 +835,6 @@ video {
   padding-bottom: 5rem;
 }
 
-
 .pb-2 {
   padding-bottom: 0.5rem;
 }
@@ -873,7 +874,6 @@ video {
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-
 .pt-3 {
   padding-top: 0.75rem;
 }
@@ -895,7 +895,6 @@ video {
 .h-hero {
   height: 533px;
 }
-
 
 .wh-local {
   height: 280px;
@@ -957,5 +956,224 @@ video {
 .wh-search {
   width: 971px;
   height: 80px;
+}
+
+.line-height {
+  line-height: 78px;
+}
+
+.text-size96px {
+  font-size: 96px;
+}
+
+/* Container */
+
+.h-container {
+  height: 1500px;
+}
+
+.p-menu-bar {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+/* Shop Section */
+
+.shop-radius {
+  border-radius: 30px;
+}
+
+.wh-shopsection {
+  width: 95%;
+  height: 494px;
+}
+
+.wh-all-box {
+  width: 103px;
+  height: 56px;
+}
+
+.all-box-radius {
+  border-radius: 0;
+}
+
+.my-shopsection {
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+
+.mt-shopsection {
+  margin-top: -10px;
+}
+
+.all-box-position {
+  right: 100px;
+}
+
+.p-shopsection {
+  padding: 20px;
+}
+
+.text-center {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.font-size36 {
+  font-size: 36px;
+}
+
+.font-size48 {
+  font-size: 48px;
+}
+
+.shop-text-position {
+  left: 15px;
+}
+
+.clock-position {
+  left: 315px;
+}
+
+.float-right {
+  float: right;
+}
+
+.wh-time-box {
+  width: 41px;
+  height: 41px;
+}
+
+.gap-4 {
+  gap: 10px;
+}
+
+.ml-time {
+  margin-left: 80px;
+}
+
+.text-20px {
+  font-size: 20px;
+}
+
+.grid-shop-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 30px;
+}
+
+.wh-grid-shop-box {
+  position: relative;
+  width: 261px;
+  height: 326px;
+}
+
+.shop-box-radius {
+  border-radius: 15px;
+}
+
+.m-shop-box {
+  margin: 25px;
+}
+
+.shop-container-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.wh-discount-box {
+  width: 45px;
+  height: 31px;
+}
+
+.bg-discount {
+  background-color: #FF6962;
+}
+
+.text-size12px {
+  font-size: 16px;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.discount-box-position {
+  right: -5px;
+  top: 0px;
+  margin: 15px;
+}
+
+.text-24px {
+  font-size: 24px;
+}
+
+.text-18px {
+  font-size: 18px;
+
+}
+
+.text1-position {
+  bottom: 65px;
+  left: 20px;
+}
+
+.text2-position {
+  bottom: 38px;
+  left: 20px;
+}
+
+.line-through {
+  text-decoration: line-through solid #60405C 2px;
+}
+
+.text-discount-position {
+  bottom: 5px;
+  left: 20px;
+}
+
+.price-color {
+  color: #FF6962;
+}
+
+.price-position {
+  bottom: 3px;
+  left: 90px;
+}
+
+.price-position2 {
+  bottom: 5px;
+  left: 20px;
+}
+
+.cursor-default {
+  cursor: default;
+}
+
+.heart-position {
+  bottom: 5px;
+  right: 40px;
+  cursor: pointer;
+}
+
+.cart-position {
+  bottom: 5px;
+  right: 5px;
+}
+
+.break-words {
+  overflow-wrap: break-word;
+}
+
+.p-20px {
+  padding: 20px;
+}
+
+.font-kung {
+  font-family: 'KungopThin';
 }
 
