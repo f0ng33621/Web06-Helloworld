@@ -1,5 +1,8 @@
-import React from 'react'
 import { Icon } from '@iconify/react';
+import PencilSharpener from "../assets/กบเหลาหลากสี228.78x123px.png"
+import Staedtler from "../assets/สี steatler156.32 x 170px.png"
+import CollenColor from "../assets/สีคอลลีน 48 194x181.82px.png"
+import Gsoftpen from "../assets/ปากกาลูกลื่นgsoft 171.23x193 px.png"
 
 function ShopSectionBox01() {
   return (
@@ -21,7 +24,7 @@ function ShopSectionBox01() {
           <div className='wh-discount-box absolute bg-discount text-center text-size12px text-white discount-box-position '>
             -50%
           </div>
-          <a href=""><img src="/src/assets/กบเหลาหลากสี228.78x123px.png" width="228.78px" height="123px" alt="กบเหลาดินสอ" /></a>
+          <a href=""><img src={PencilSharpener} width="228.78px" height="123px" alt="กบเหลาดินสอ" /></a>
           <div className='absolute text-24px text1-position'>กบเหลาดินสอ</div>
           <div className='absolute text-24px text2-position'>Faber-Castell</div>
           <div className='absolute text-18px line-through text-discount-position '>฿ 18.00</div>
@@ -33,7 +36,7 @@ function ShopSectionBox01() {
           <div className='wh-discount-box absolute bg-discount text-center text-size12px text-white discount-box-position '>
             -15%
           </div>
-          <a href=""><img src="/src/assets/สี steatler156.32 x 170px.png" width="228px" height="170px" alt="กบเหลาดินสอ" /></a>
+          <a href=""><img src={Staedtler} width="228px" height="170px" alt="สีไม้ Staedtler" /></a>
           <div className='absolute text-24px text2-position'>สีไม้ Staedtler 24 สี</div>
           <div className='absolute text-18px line-through text-discount-position '>฿ 95.00</div>
           <div className='absolute text-24px price-position price-color'>฿ 81.00</div>
@@ -44,7 +47,7 @@ function ShopSectionBox01() {
           <div className='wh-discount-box absolute bg-discount text-center text-size12px text-white discount-box-position '>
             -30%
           </div>
-          <a href=""><img src="/src/assets/สีคอลลีน 48 194x181.82px.png" width="194px" height="181.82px" alt="กบเหลาดินสอ" /></a>
+          <a href=""><img src={CollenColor} width="194px" height="181.82px" alt="สีไม้ Colleen" /></a>
           <div className='absolute text-24px text2-position'>สีไม้ COLLEEN 48 สี</div>
           <div className='absolute text-18px line-through text-discount-position '>฿ 240.00</div>
           <div className='absolute text-24px price-position price-color'>฿ 168.00</div>
@@ -55,7 +58,7 @@ function ShopSectionBox01() {
           <div className='wh-discount-box absolute bg-discount text-center text-size12px text-white discount-box-position '>
             -10%
           </div>
-          <a href=""><img src="/src/assets/ปากกาลูกลื่นgsoft 171.23x193 px.png" width="220px" height="193px" alt="กบเหลาดินสอ" /></a>
+          <a href=""><img src={Gsoftpen} width="220px" height="193px" alt="กบเหลาดินสอ" /></a>
           <div className='absolute text-24px text2-position'>ปากกาลูกลื่นเจล g'soft</div>
           <div className='absolute text-18px line-through text-discount-position '>฿ 10.00</div>
           <div className='absolute text-24px price-position price-color'>฿ 9.00</div>
