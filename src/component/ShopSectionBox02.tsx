@@ -3,7 +3,7 @@ import { Icon } from '@iconify/react';
 
 function ShopSectionBox02() {
     return (
-        <div className='bg-primary2 border-3 border-primary4 shop-radius wh-shopsection my-shopsection p-shopsection font-size36'>
+        <div className='bg-primary2 border-3 border-primary4 shop-radius wh-shopsection my-shopsection p-shopsection font-size36 text-primary4'>
             {/* Header */}
             <div className='flex items-center'>
                 <a href='' className='bg-primary1 border-3 border-primary4 absolute text-center text-uppercase wh-all-box all-box-radius font-size36 all-box-position'>All</a>
@@ -29,7 +29,7 @@ function ShopSectionBox02() {
                 </div>
                 <div className='bg-primary5 border-3 border-primary4 shop-box-radius wh-grid-shop-box m-shop-box flex justify-center p-4 cursor-default p-20px' >
                     <a href=""><img src="/src/assets/ไม้บรรทัดอะลูมิเนียม 12 นิ้ว214.77x192px.png" width="214px" height="192.82px" alt="ไม้บรรทัดอะลูมิเนียม" /></a>
-                    <div className='absolute text-24px text2-position'>ไม้บรรทัดอะลูมิเนียม 12 นิ้ว</div>
+                    <div className='absolute text-24px text2-position mr-text'>ไม้บรรทัดอะลูมิเนียม 12 นิ้ว</div>
                     <div className='absolute text-24px price-position2'>฿ 29.00</div>
                     <Icon icon="mingcute:heart-line" width="35" height="35" className='absolute text-primary4 heart-position ' />
                     <Icon icon="fluent:cart-20-filled" width="38" height="38" className='absolute text-primary4 cart-position' />

@@ -3,7 +3,7 @@ import { Icon } from '@iconify/react';
 
 function ShopSectionBox01() {
   return (
-    <div className='bg-primary2 border-3 border-primary4 shop-radius wh-shopsection my-shopsection p-shopsection font-size36'>
+    <div className='bg-primary2 border-3 border-primary4 shop-radius wh-shopsection my-shopsection p-shopsection font-size36 text-primary4 '>
       {/* Header */}
       <div className='flex items-center'>
         <a href='' className='bg-primary1 border-3 border-primary4 absolute text-center text-uppercase wh-all-box all-box-radius font-size36 all-box-position'>All</a>

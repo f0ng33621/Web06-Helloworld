@@ -44,12 +44,13 @@ html {
   -o-tab-size: 4;
   tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'KungopThin';
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
   font-variation-settings: normal;
   /* 6 */
+ 
 }
 
 /*
@@ -957,6 +958,14 @@ video {
   height: 80px;
 }
 
+.line-height {
+  line-height: 78px;
+}
+
+.text-size96px {
+  font-size: 96px;
+}
+
 /* Container */
 
 .h-container {
@@ -1027,7 +1036,7 @@ video {
 }
 
 .clock-position {
-  left: 345px;
+  left: 315px;
 }
 
 .float-right {
@@ -1162,5 +1171,9 @@ video {
 
 .p-20px {
   padding: 20px;
+}
+
+.font-kung {
+  font-family: 'KungopThin';
 }
 
