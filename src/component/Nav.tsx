@@ -42,7 +42,7 @@ function Nav() {
       </div>
       <div>
         {isOpen && (
-          <div className=" w-[10%] bg-primary3 font-kungop text-primary4 text-center text-2xl absolute ml-5 -mt-8">
+          <div className=" flex flex-col w-[10%] bg-primary3 font-kungop text-primary4 text-center text-2xl absolute ml-5 -mt-8">
             <Link to="/catagory">
               <div className=" hover:bg-primary2">หมวดเครื่องเขียน</div>
             </Link>
@@ -54,7 +54,7 @@ function Nav() {
       </div>
       <div className="flex justify-end">
         {isOpenSignIn && (
-          <div className=" w-[10%] bg-primary3 font-kungop text-primary4 text-center text-2xl absolute -ml-5 -mt-8">
+          <div className=" flex flex-col w-[10%] bg-primary3 font-kungop text-primary4 text-center text-2xl absolute -ml-5 -mt-8">
             <Link to="/login">
               <div className=" hover:bg-primary2">Sign In</div>
             </Link>
