@@ -1,5 +1,6 @@
 import { Icon } from "@iconify/react";
 import peach1pages from "../assets/peach1หน้าแรก361.88x367.36px.png";
+import { Link } from "react-router-dom";
 
 function HeroSection() {
   return (
@@ -12,13 +13,15 @@ function HeroSection() {
             <p>Marketplace</p>
             <p className="text-size96px">For student</p>
           </div>
-          <a
-            href=""
-            className="bg-primary1 wh-shop border-5 border-primary4 absolute position-shop items-center flex justify-center text-uppercase px-4 font-size48 text-primary4"
-          >
-            {" "}
-            Shop now{" "}
-          </a>
+          <Link to="/catagory">
+            <a
+              href=""
+              className="bg-primary1 wh-shop border-5 border-primary4 absolute position-shop items-center flex justify-center text-uppercase px-4 font-size48 text-primary4"
+            >
+              {" "}
+              Shop now{" "}
+            </a>
+          </Link>
           <div className="peach-page1">
             <img src={peach1pages} alt="peach-logo" />
           </div>
